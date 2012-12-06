@@ -9,76 +9,56 @@
     ],
     content: [
         {
-            block: 'content',
+            block: 'slider',
             content: [
                 {
-                    block: 'carousel',
+                    elem: 'slide',
+                    content: 'ziga'
+                }                
+
+            ]
+        },
+        {
+            block: 'section',
+            content: [
+                {
+                    elem: 'heading',
+                    content: 'Общие вопросы'
+                },
+                {
+                    block: 'menu-list',
                     content: [
                         {
+                            elem: 'item',
                             content: [
                                 {
-                                    elem: 'item',
-                                    content: [
-                                        {
-                                            block: 'motivator',
-                                            content: [
-                                                {elem: 'img', elemMods: {theme: 'bem'}},
-                                                {elem: 'slogan', content: 'BEM SERVER'},
-                                                {elem: 'tagline', content: 'Делай BEM!'}
-                                        ]}
-                                    ]
-                                },
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },
+                                    content: 'Первый'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            block: 'section',
+            content: [
+                {
+                    elem: 'heading',
+                    content: 'Опыт разработки'
+                },
+                {
+                    block: 'menu-list',
+                    content: [
+                        {
+                            elem: 'item',
+                            content: [
                                 {
-                                    elem: 'item',
-                                    content: [
-                                        {
-                                            block: 'motivator',
-                                            content: [
-                                                {elem: 'img', elemMods: {theme: 'another'}},
-                                                {elem: 'slogan', content: 'BATMAN'},
-                                                {elem: 'tagline', content: 'Человек-летучая мышь - мрачный крепыш!'}
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    content: [
-                                        {
-                                            block: 'motivator',
-                                            content: [
-                                                {elem: 'img', elemMods: {theme: 'america'}},
-                                                {elem: 'slogan', content: 'CAPTAIN AMERICA'},
-                                                {elem: 'tagline', content: 'Капитан Америка - у всех истерика!'}
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    content: [
-                                        {
-                                            block: 'motivator',
-                                            content: [
-                                                {elem: 'img', elemMods: {theme: 'iron'}},
-                                                {elem: 'slogan', content: 'IRONMAN'},
-                                                {elem: 'tagline', content: 'Железный человек - в шлеме на век!'}
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    content: [
-                                        {
-                                            block: 'motivator',
-                                            content: [
-                                                {elem: 'img', elemMods: {theme: 'brain'}},
-                                                {elem: 'slogan', content: '???'},
-                                                {elem: 'tagline', content: 'А этого никто не знает'}
-                                            ]
-                                        }
-                                    ]
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },
+                                    content: 'Перывый'
                                 }
                             ]
                         }

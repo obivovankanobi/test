@@ -1,0 +1,4 @@
+block link, mod type pseudo {
+   
+    tag: 'div'                   
+}

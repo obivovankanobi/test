@@ -1,0 +1,15 @@
+.slider__button_state_active
+{
+    -moz-transition: color 1s;
+    -webkit-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+    -moz-transition: background 1s;
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+    cursor: default;
+    background: #000;
+    color: #fff;
+    border-bottom: none;
+}

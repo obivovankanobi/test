@@ -1,0 +1,9 @@
+.slider 
+{
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    height: 400px;
+    width: 48%;
+    margin-top: 50px;
+}
