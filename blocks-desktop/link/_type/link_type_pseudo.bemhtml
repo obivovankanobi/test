@@ -1,4 +1,4 @@
 block link, mod type pseudo {
-   
-    tag: 'div'                   
+    mix: [{ block: 'slider', elem: 'button' }] 
+    tag: 'span'                   
 }

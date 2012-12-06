@@ -14,7 +14,72 @@
                 {
                     elem: 'slide',
                     content: 'ziga'
-                }                
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                },
+                {
+                    elem: 'slide',
+                    content: 'ziga'
+                }  
+                                
 
             ]
         },
@@ -34,10 +99,101 @@
                                 {
                                     block: 'link',
                                     mods: { type: 'pseudo' },
+                                    mix: [{ block: 'slider', elem: 'button', elemMods: { state: 'active' } }],
                                     content: 'Первый'
-                                }
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
                             ]
                         }
+
                     ]
                 }
             ]
@@ -57,9 +213,86 @@
                             content: [
                                 {
                                     block: 'link',
-                                    mods: { type: 'pseudo' },
-                                    content: 'Перывый'
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
                                 }
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    mods: { type: 'pseudo' },                                    
+                                    content: 'Первый'
+                                }     
+
                             ]
                         }
                     ]
