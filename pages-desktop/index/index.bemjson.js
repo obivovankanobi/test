@@ -7,13 +7,26 @@
         { block: 'i-jquery', elem: 'core' },
         { elem: 'js', url: '_index.js' }
     ],
+    mix: [{ block: 'i-reset' }],
     content: [
         {
             block: 'slider',
             content: [
                 {
                     elem: 'slide',
-                    content: 'ziga'
+                    content: 'Матюха Владимир Петрович'
+                },
+                {
+                    elem: 'slide',
+                    content: '1990'
+                },
+                {
+                    elem: 'slide',
+                    content: 'Ялта'
+                },
+                {
+                    elem: 'slide',
+                    content: 'Ялтинский филиал Европейского университета,'
                 },
                 {
                     elem: 'slide',
@@ -66,21 +79,7 @@
                 {
                     elem: 'slide',
                     content: 'ziga'
-                },
-                {
-                    elem: 'slide',
-                    content: 'ziga'
-                },
-                {
-                    elem: 'slide',
-                    content: 'ziga'
-                },
-                {
-                    elem: 'slide',
-                    content: 'ziga'
-                }  
-                                
-
+                }
             ]
         },
         {
