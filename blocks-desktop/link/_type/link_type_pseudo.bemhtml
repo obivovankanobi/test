@@ -1,0 +1,4 @@
+block link, mod type pseudo {
+    mix: [{ block: 'slider', elem: 'button' }] 
+    tag: 'span'                   
+}

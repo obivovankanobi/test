@@ -1,0 +1,7 @@
+.link_type_pseudo
+{
+    border-bottom: dotted 1px;
+    cursor: pointer;
+    padding: 2px 4px;
+    line-height: 22px;
+}
