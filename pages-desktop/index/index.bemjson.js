@@ -124,7 +124,7 @@
                 },
                 {
                     elem: 'slide',
-                    content: 'ziga'
+                    content: 'В студии tadatuta. Вёрстка, js, разработка тем для wordpress и поддержка существующих сайтов. Есть небольшой опыт разработки в команде.'
                 }
             ]
         },
@@ -143,8 +143,7 @@
                             content: [
                                 {
                                     block: 'link',
-                                    mods: { type: 'pseudo' },
-                                    mix: [{ block: 'slider', elem: 'button', elemMods: { state: 'active' } }],
+                                    mods: { type: 'pseudo' },                                    
                                     content: 'Фамилия, имя, отчество'
                                 }
                             ]
