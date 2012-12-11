@@ -16,7 +16,7 @@ var animationFlag = false;
             $('.slider__slide').eq(indexOfSlide).animate({
                 marginLeft: '40',            
                 opacity: 'toggle'                
-            }, 300, function(){
+            }, 250, function(){
                animationFlag = false;
             })
             $('.slider__slide').eq(indexOfSlide).addClass('slider__slide_state_active');
