@@ -10,13 +10,13 @@ var animationFlag = false;
             indexOfSlide = buttons.index($(this));
             
             $('.slider__slide_state_active').css({
-                marginLeft: '-50px'
+                marginLeft: '-40px'
             });
             $('.slider__slide_state_active').removeClass('slider__slide_state_active').addClass('slider__slide').hide();  
             $('.slider__slide').eq(indexOfSlide).animate({
-                marginLeft: '50',            
+                marginLeft: '40',            
                 opacity: 'toggle'                
-            }, 500, function(){
+            }, 350, function(){
                animationFlag = false;
             })
             $('.slider__slide').eq(indexOfSlide).addClass('slider__slide_state_active');

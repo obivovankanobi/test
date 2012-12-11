@@ -1,12 +1,13 @@
 .link
 {
-    color: #086ca2;    
+    color: #086ca2;   
+  
 }
 
 
 .link:hover
 {
-    color:red;    
+    color:red;  
 }
 
 .link.slider__button_state_active
@@ -15,6 +16,7 @@
     -webkit-transition: color 1s;
     -o-transition: color 1s;
     transition: color 1s;
+
     -moz-transition: background 1s;
     -webkit-transition: background 1s;
     -o-transition: background 1s;
