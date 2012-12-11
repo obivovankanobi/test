@@ -1,8 +1,6 @@
 .slider 
-{
-    display: inline-block;
-    float: left;
-    vertical-align: top;
+{    
+    float: left;    
     height: 400px;
     width: 48%;
     margin-top: 50px;
