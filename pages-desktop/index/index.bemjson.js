@@ -10,8 +10,7 @@
     mix: [{ block: 'i-reset' }],
     content: [
         {
-            block: 'slider',
-            content: 'Матюха Владимир Петрович.'
+            block: 'slider'            
         },
         {
             block: 'menu-wrap',

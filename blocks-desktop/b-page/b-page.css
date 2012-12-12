@@ -4,4 +4,6 @@
     font-family: verdana,sans-serif;
     color: #fff;
     background: #cdcdcd;
+
+    min-width: 700px;
 }
