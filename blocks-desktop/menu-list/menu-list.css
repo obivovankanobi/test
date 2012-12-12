@@ -2,3 +2,15 @@
 {
     margin: 10px 0 30px 29px;
 }
+
+.slider .menu-list
+{
+    margin: 0;
+    list-style-position: inside;
+    line-height: 1.5em;
+}
+
+.slider .menu-list__item
+{
+    margin: 0;
+}
