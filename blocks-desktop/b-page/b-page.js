@@ -53,8 +53,7 @@ $(function(){
     $('.slider__button:first').click();
 
     $(window).resize(function (event) {
-        var currentButtonTopOffset = $('.slider__button_state_active').offset().top;
-        console.log(currentButtonTopOffset);
+        var currentButtonTopOffset = $('.slider__button_state_active').offset().top;       
 
         if ( indexOfSlide == buttons.length-1 || indexOfSlide == buttons.length-2 ){
                 currentButtonTopOffset = currentButtonTopOffset - 60;                 
