@@ -1,6 +1,7 @@
 $(function(){
-
-    var  topOffset,animationFlag = false, anwrs=[
+    var slides = $('.slider');    
+    var buttons = $('.slider__button, .slider__button_state_active');  
+    var indexOfSlide,topOffset,animationFlag = false, anwrs=[
     'Матюха Владимир Петрович.',
     '1990.',
     'Ялта.',
@@ -23,8 +24,8 @@ $(function(){
         if(!animationFlag){
     
             animationFlag = true;
-            slides = $('.slider');
-            buttons = $('.slider__button, .slider__button_state_active');            
+            
+                      
             indexOfSlide = buttons.index($(this));
             
             var that = $(this).offset();
@@ -54,6 +55,11 @@ $(function(){
     $(window).resize(function (event) {
         var currentButtonTopOffset = $('.slider__button_state_active').offset().top;
         console.log(currentButtonTopOffset);
+
+        if ( indexOfSlide == buttons.length-1 || indexOfSlide == buttons.length-2 ){
+                currentButtonTopOffset = currentButtonTopOffset - 60;                 
+        }  
+
         $('.slider').css({
             marginTop: currentButtonTopOffset
         })
