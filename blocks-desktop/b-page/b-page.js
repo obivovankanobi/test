@@ -21,11 +21,8 @@ $(function(){
     'В студии tadatuta. Вёрстка, js, разработка тем для wordpress и поддержка существующих сайтов. Есть опыт разработки в команде.'];
 
    $('.slider__button').live('click',function(){      
-        if(!animationFlag){
-    
-            animationFlag = true;
-            
-                      
+        if(!animationFlag){    
+            animationFlag = true
             indexOfSlide = buttons.index($(this));
             
             var that = $(this).offset();
@@ -62,8 +59,6 @@ $(function(){
         $('.slider').css({
             marginTop: currentButtonTopOffset
         })
-
     }); 
-
 }) 
 

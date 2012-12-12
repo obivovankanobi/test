@@ -3,7 +3,8 @@
     title: 'Анкета',
     head: [
         { elem: 'css', url: '_index.css', ie: false },
-        { elem: 'css', url: '_index.ie.css', ie: 'lt IE 8' },
+        { elem: 'css', url: '_index.css', ie: 'gte IE 9' },
+        { elem: 'css', url: '_index.ie.css', ie: 'lt IE 9' },
         { block: 'i-jquery', elem: 'core' },
         { elem: 'js', url: '_index.js' }
     ],
