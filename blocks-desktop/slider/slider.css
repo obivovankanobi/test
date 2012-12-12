@@ -1,7 +1,24 @@
 .slider 
 {    
-    float: left;    
-    height: 400px;
-    width: 48%;
+    width: 35%;
+
+    position: fixed;
+
+    min-height: 190px;   
+    padding: 10px;  
+ 
+    overflow: hidden;
+
     margin-top: 50px;
+    margin-left: -50px;
+
+    background: #b8b8b8;     
+  
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 0 0 6px #666;
+    -moz-box-shadow: 0 0 6px #666;
+    box-shadow: 0 0 6px #666;  
 }

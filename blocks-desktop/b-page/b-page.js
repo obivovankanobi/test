@@ -22,14 +22,14 @@ var animationFlag = false, anwrs=[
    $('.slider__button').live('click',function(){
         if(!animationFlag){
             animationFlag = true;
-            slides = $('.slider__slide');
+            slides = $('.slider');
             buttons = $('.slider__button, .slider__button_state_active');            
             indexOfSlide = buttons.index($(this));          
             
-            $('.slider__slide').css({
+            $('.slider').css({
                 marginLeft: '-40px'
             });           
-            $('.slider__slide').hide().html(anwrs[indexOfSlide]).animate({
+            $('.slider').hide().html(anwrs[indexOfSlide]).animate({
                 marginLeft: '40',           
                 opacity: 'toggle'                
             }, 300, function(){
@@ -39,6 +39,6 @@ var animationFlag = false, anwrs=[
             $(this).addClass('slider__button_state_active').removeClass('slider__button');
         }       
     })
-    $('.slider__button:first').click();  
+    $('.slider__button:first').click(); 
 }) 
 

@@ -11,204 +11,204 @@
     content: [
         {
             block: 'slider',
-            content: [
-                {
-                    elem: 'slide',
-                    content: 'Матюха Владимир Петрович.'
-                }
-            ]
+            content: 'Матюха Владимир Петрович.'
         },
         {
-            block: 'section',
+            block: 'menu-wrap',
             content: [
                 {
-                    elem: 'heading',
-                    content: 'Общие вопросы'
-                },
-                {
-                    block: 'menu-list',
+                    block: 'section',
                     content: [
                         {
-                            elem: 'item',
-                            content: [
-                                {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Фамилия, имя, отчество'
-                                }
-                            ]
+                            elem: 'heading',
+                            content: 'Общие вопросы'
                         },
                         {
-                            elem: 'item',
+                            block: 'menu-list',
                             content: [
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Год рождения'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'item',
-                            content: [
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Фамилия, имя, отчество'
+                                        }
+                                    ]
+                                },
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Город, в котором живёте'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'item',
-                            content: [
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Год рождения'
+                                        }
+                                    ]
+                                },
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Вуз, факультет, специальность, кафедра'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'item',
-                            content: [
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Город, в котором живёте'
+                                        }
+                                    ]
+                                },
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Год окончания вуза'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'item',
-                            content: [
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Вуз, факультет, специальность, кафедра'
+                                        }
+                                    ]
+                                },
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Уровень владения английским языком'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'item',
-                            content: [
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Год окончания вуза'
+                                        }
+                                    ]
+                                },
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Чего вы ожидаете от участия в Школе?'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'item',
-                            content: [
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Уровень владения английским языком'
+                                        }
+                                    ]
+                                },
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Откуда вы о нас узнали?'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'item',
-                            content: [
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Чего вы ожидаете от участия в Школе?'
+                                        }
+                                    ]
+                                },
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Сколько времени вы готовы уделять стажировке или работе в Яндексе?'
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Откуда вы о нас узнали?'
+                                        }
+                                    ]
+                                },
+                                {
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Сколько времени вы готовы уделять стажировке или работе в Яндексе?'
+                                        }
+                                    ]
                                 }
                             ]
                         }
                     ]
-                }
-            ]
-        },
-        {
-            block: 'section',
-            content: [
-                {
-                    elem: 'heading',
-                    content: 'Опыт разработки'
                 },
                 {
-                    block: 'menu-list',
+                    block: 'section',
                     content: [
                         {
-                            elem: 'item',
-                            content: [
-                                {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Расскажите нам о вашем опыте разработки. Ничего не упускайте: это может быть как серьезный интерфейс, так и просто домашняя страничка.'
-                                }
-                            ]
+                            elem: 'heading',
+                            content: 'Опыт разработки'
                         },
                         {
-                            elem: 'item',
+                            block: 'menu-list',
                             content: [
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Какие языки программирования, фреймворки и технологии вы использовали? Сложились ли у вас личные предпочтения?'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'item',
-                            content: [
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Расскажите нам о вашем опыте разработки. Ничего не упускайте: это может быть как серьезный интерфейс, так и просто домашняя страничка.'
+                                        }
+                                    ]
+                                },
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'С какими редакторами и средами разработки вы знакомы? Чем обычно пользуетесь?'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'item',
-                            content: [
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Какие языки программирования, фреймворки и технологии вы использовали? Сложились ли у вас личные предпочтения?'
+                                        }
+                                    ]
+                                },
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'С какими ОС приходилось сталкиваться? Для каких целей вы их применяли?'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'item',
-                            content: [
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'С какими редакторами и средами разработки вы знакомы? Чем обычно пользуетесь?'
+                                        }
+                                    ]
+                                },
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Приходилось ли вам работать с системами контроля версий? С какими? Какая из них вам нравится больше всего?'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'item',
-                            content: [
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'С какими ОС приходилось сталкиваться? Для каких целей вы их применяли?'
+                                        }
+                                    ]
+                                },
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Использовали ли вы системы постановки и ведения задач?'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'item',
-                            content: [
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Приходилось ли вам работать с системами контроля версий? С какими? Какая из них вам нравится больше всего?'
+                                        }
+                                    ]
+                                },
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Какие полезные для фронтенд-разработчика ресурсы вы используете и готовы посоветовать?'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'item',
-                            content: [
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Использовали ли вы системы постановки и ведения задач?'
+                                        }
+                                    ]
+                                },
                                 {
-                                    block: 'link',
-                                    mods: { type: 'pseudo' },                                    
-                                    content: 'Где вы работали раньше? Что именно делали? Есть ли у вас опыт работы в команде?'
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Какие полезные для фронтенд-разработчика ресурсы вы используете и готовы посоветовать?'
+                                        }
+                                    ]
+                                },
+                                {
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            block: 'link',
+                                            mods: { type: 'pseudo' },                                    
+                                            content: 'Где вы работали раньше? Что именно делали? Есть ли у вас опыт работы в команде?'
+                                        }
+                                    ]
                                 }
                             ]
                         }

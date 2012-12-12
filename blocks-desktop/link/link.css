@@ -20,6 +20,10 @@
     -o-transition: background 1s;
     transition: background 1s;
     cursor: default;
+
+    -moz-text-shadow: none;
+    -webkit-text-shadow: none;
+    text-shadow: none;  
     
     background: #000;
     color: #fff;
